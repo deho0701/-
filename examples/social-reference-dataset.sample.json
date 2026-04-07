@@ -1,0 +1,106 @@
+{
+  "dataset_name": "social_reference_patterns_v1",
+  "purpose": "인스타/X/쇼츠에서 원본 영상을 퍼오지 않고도 훅, 자막, 리액션, 예시 컷 문법을 재현하기 위한 레퍼런스 데이터셋",
+  "entries": [
+    {
+      "id": "ref_insomnia_hook_001",
+      "platform": "youtube_shorts",
+      "source_url": "https://www.youtube.com/shorts/ktdEGtodozQ",
+      "creator_handle": "이슈붕",
+      "captured_at": "2026-04-07",
+      "rights_status": "reference_only",
+      "reusable_as_media": false,
+      "reference_only": true,
+      "topic_tags": [
+        "adhd",
+        "mental_health",
+        "shorts"
+      ],
+      "tone_tags": [
+        "alarmist",
+        "meme",
+        "fast",
+        "social"
+      ],
+      "visual_roles": [
+        "hook",
+        "reaction",
+        "example"
+      ],
+      "editing_patterns": [
+        "첫 2초 강한 경고성 훅",
+        "큰 중앙 텍스트",
+        "빠른 리액션 컷 전환",
+        "생활 예시 컷과 표정 컷 교차",
+        "정보 전달보다 감정 선점"
+      ],
+      "hook_pattern": "너도 이 증상이 있으면 위험할 수 있다",
+      "caption_pattern": "짧은 경고형 한 문장 자막",
+      "scene_summary": "초반에 큰 경고 문구를 던지고, 중간에는 리액션 표정과 일상 예시를 빠르게 섞어 공감과 긴장을 동시에 만든다.",
+      "search_queries": [
+        "shocked face vertical video",
+        "anxious person bedroom vertical",
+        "busy person overwhelmed office",
+        "reaction meme face closeup"
+      ],
+      "fallback_generation_prompt": "9:16 vertical, social-first meme edit energy, extreme close-up reaction face, high contrast, urgent red warning palette, fast emotional pacing, editorial realism, no logos, no text baked in",
+      "usable_asset_plan": {
+        "source_priority": [
+          "owned_library",
+          "stock",
+          "generated"
+        ],
+        "asset_type": "reaction_clip",
+        "notes": "원본 소셜 클립은 레퍼런스만 하고, 실제 삽입은 반응 컷 라이브러리나 생성형으로 대체"
+      }
+    },
+    {
+      "id": "ref_insomnia_story_002",
+      "platform": "youtube_shorts",
+      "source_url": "https://www.youtube.com/watch?v=N3zqpAleU5g",
+      "creator_handle": "The School of Life",
+      "captured_at": "2026-04-07",
+      "rights_status": "reference_only",
+      "reusable_as_media": false,
+      "reference_only": true,
+      "topic_tags": [
+        "insomnia",
+        "philosophy",
+        "mental_health"
+      ],
+      "tone_tags": [
+        "editorial",
+        "serious",
+        "reflective"
+      ],
+      "visual_roles": [
+        "metaphor",
+        "example",
+        "payoff"
+      ],
+      "editing_patterns": [
+        "차분한 설명을 쇼츠용 강한 문장으로 재구성",
+        "원인 설명 다음에 생활 예시 배치",
+        "마지막은 해결책 또는 관점 전환"
+      ],
+      "hook_pattern": "불면증은 잠 부족이 아니라 다른 문제일 수 있다",
+      "caption_pattern": "설명형이지만 한 문장씩 강하게 끊는 자막",
+      "scene_summary": "철학적 설명을 생활 문제처럼 재번역하고, 밤의 공포와 낮의 미뤄둔 문제를 시각적 비유로 풀어낼 수 있는 소재",
+      "search_queries": [
+        "person awake in bed anxious night",
+        "overthinking office stress",
+        "journal writing calm morning",
+        "alarm clock night bedroom"
+      ],
+      "fallback_generation_prompt": "9:16 vertical, psychological insomnia explainer, anxious bedroom at night, reflective daytime writing scenes, controlled editorial realism, midnight blue palette, subtle tension, no logos, no embedded text",
+      "usable_asset_plan": {
+        "source_priority": [
+          "stock",
+          "generated"
+        ],
+        "asset_type": "broll",
+        "notes": "원본 롱폼 내용을 재구성한 뒤 스톡/생성형으로 치환 가능"
+      }
+    }
+  ]
+}

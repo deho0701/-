@@ -1,0 +1,74 @@
+{
+  "keyword": "뗀석기의 탄생",
+  "core_angle": "돌이 깨지는 성질이 어떻게 인류 최초의 칼과 도끼로 이어졌는지 짧게 설명한다.",
+  "audience": "짧고 강한 역사·과학형 쇼츠를 좋아하는 한국어 시청자",
+  "confidence_label": "medium",
+  "title_options": [
+    "돌멩이가 칼이 된 순간",
+    "인류 첫 칼은 돌이었다",
+    "주먹도끼가 혁신인 이유"
+  ],
+  "thumbnail_text_options": [
+    "칼의 시작",
+    "돌의 반전",
+    "도구 혁명"
+  ],
+  "hook": "고기를 자르려던 순간, 돌멩이가 갑자기 칼이 됩니다.",
+  "summary": "깨지는 돌의 날카로움이 박편, 찍개, 주먹도끼로 이어지는 흐름을 압축한다.",
+  "stock_search_queries": [
+    "prehistoric stone tools close up",
+    "cutting meat with stone tool reenactment",
+    "ancient hand axe museum",
+    "rock breaking slow motion",
+    "archaeology museum artifacts"
+  ],
+  "script_beats": [
+    {
+      "beat": 1,
+      "seconds": "0-8s",
+      "voiceover": "처음부터 칼이 있었던 게 아닙니다. 누군가 고기를 자르려던 순간, 깨진 돌의 날이 먼저 발견됐죠.",
+      "on_screen_text": "돌멩이가 칼이 된 순간",
+      "visual_direction": "깨지는 돌 클로즈업, 손에 쥔 날카로운 파편, 어두운 배경 위 큰 헤드라인",
+      "stock_search_query": "rock breaking slow motion sharp stone"
+    },
+    {
+      "beat": 2,
+      "seconds": "8-17s",
+      "voiceover": "문제는 그냥 던져 깨면 날은 서도 모양이 거칠다는 겁니다. 그래서 원하는 방향으로 얇은 박편을 떼어내기 시작합니다.",
+      "on_screen_text": "날은 섰는데 아직 거칠다",
+      "visual_direction": "거친 돌도구와 얇은 박편을 번갈아 보여주고, 간단한 화살표 그래픽으로 구조 비교",
+      "stock_search_query": "prehistoric stone flakes tool making"
+    },
+    {
+      "beat": 3,
+      "seconds": "17-28s",
+      "voiceover": "한쪽은 두껍게 남기고, 한쪽만 반복해서 다듬으면 찍는 데 유리한 돌도끼가 나옵니다. 여기서 도구는 역할별로 나뉘기 시작하죠.",
+      "on_screen_text": "칼에서 도끼로",
+      "visual_direction": "도끼형 석기, 타격하는 손동작, 박물관 전시 컷 위에 짧은 단계 자막",
+      "stock_search_query": "ancient hand axe museum close up"
+    },
+    {
+      "beat": 4,
+      "seconds": "28-39s",
+      "voiceover": "그리고 결정판이 주먹도끼입니다. 자르고, 찍고, 긁는 기능을 한 몸에 넣으면서 인간은 처음으로 도구를 설계하기 시작합니다.",
+      "on_screen_text": "주먹도끼 = 설계의 시작",
+      "visual_direction": "주먹도끼 전시물 풀샷, 손에 쥔 실루엣, 마지막엔 한 줄 결론 타이포",
+      "stock_search_query": "stone hand axe archaeology museum"
+    }
+  ],
+  "cta": "이런 식으로 롱폼 하나를 쇼츠 문법으로 다시 뜯어볼 수 있습니다.",
+  "caption": "돌이 그냥 돌이 아니라, 인류 첫 설계 도구의 시작이었다는 이야기.",
+  "hashtags": [
+    "#쇼츠",
+    "#역사",
+    "#고고학",
+    "#주먹도끼",
+    "#석기시대"
+  ],
+  "claims_to_verify": [
+    "박편, 찍개, 주먹도끼의 세부 시기와 용도"
+  ],
+  "missing_facts": [
+    "정확한 연대와 지역별 대표 유물 정보"
+  ]
+}

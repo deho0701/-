@@ -1,0 +1,87 @@
+{
+  "name": "shorts_script",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "keyword": { "type": "string" },
+      "core_angle": { "type": "string" },
+      "audience": { "type": "string" },
+      "confidence_label": {
+        "type": "string",
+        "enum": ["high", "medium", "low"]
+      },
+      "title_options": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": { "type": "string" }
+      },
+      "thumbnail_text_options": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": { "type": "string" }
+      },
+      "hook": { "type": "string" },
+      "summary": { "type": "string" },
+      "stock_search_queries": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 8,
+        "items": { "type": "string" }
+      },
+      "script_beats": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 8,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "beat": { "type": "integer", "minimum": 1 },
+            "seconds": { "type": "string" },
+            "voiceover": { "type": "string" },
+            "on_screen_text": { "type": "string" },
+            "visual_direction": { "type": "string" },
+            "stock_search_query": { "type": "string" }
+          },
+          "required": ["beat", "seconds", "voiceover", "on_screen_text", "visual_direction", "stock_search_query"]
+        }
+      },
+      "cta": { "type": "string" },
+      "caption": { "type": "string" },
+      "hashtags": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 8,
+        "items": { "type": "string" }
+      },
+      "claims_to_verify": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "missing_facts": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "required": [
+      "keyword",
+      "core_angle",
+      "audience",
+      "confidence_label",
+      "title_options",
+      "thumbnail_text_options",
+      "hook",
+      "summary",
+      "stock_search_queries",
+      "script_beats",
+      "cta",
+      "caption",
+      "hashtags",
+      "claims_to_verify",
+      "missing_facts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "shorts": [
+    {
+      "title": "돌멩이가 칼이 된 순간",
+      "thumbnail_text": "칼의 시작",
+      "core_angle": "깨지는 돌의 날카로움이 왜 첫 칼이 되었는지 설명",
+      "hook_indices": [5],
+      "setup_indices": [6],
+      "body_indices": [7, 8],
+      "payoff_indices": [9, 11],
+      "script_beats": [
+        {
+          "beat": 1,
+          "seconds": "0-6s",
+          "voiceover": "고기를 자르던 순간, 돌멩이가 갑자기 칼이 됩니다.",
+          "on_screen_text": "돌이 칼이 된 순간",
+          "fallback_visual_prompt": "prehistoric stone shard close-up, dramatic museum lighting, sharp broken edge, vertical composition"
+        },
+        {
+          "beat": 2,
+          "seconds": "6-13s",
+          "voiceover": "핵심은 단순합니다. 깨진 돌의 날이 이빨이나 손톱보다 훨씬 더 날카로웠던 거죠.",
+          "on_screen_text": "깨진 돌의 날",
+          "fallback_visual_prompt": "extreme close-up of broken stone edge, macro texture, archaeology documentary style"
+        },
+        {
+          "beat": 3,
+          "seconds": "13-21s",
+          "voiceover": "이 발견 하나로 인간은 그냥 집는 손에서, 자르는 도구의 시대로 넘어갑니다.",
+          "on_screen_text": "도구의 시대 시작",
+          "fallback_visual_prompt": "ancient humans using primitive cutting tool, cinematic reenactment, no gore"
+        }
+      ]
+    }
+  ]
+}

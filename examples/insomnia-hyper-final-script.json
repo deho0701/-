@@ -1,0 +1,91 @@
+{
+  "keyword": "불면증",
+  "style_preset": "meme",
+  "core_angle": "불면증을 수면 부족이 아니라 걱정 루프와 낮의 미해결 생각으로 재구성한다.",
+  "audience": "트위터 제목 같은 훅과 빠른 밈컷 편집으로 정보를 소비하는 한국어 쇼츠 시청자",
+  "confidence_label": "medium",
+  "title_options": [
+    "불면증은 피곤해서 오는 게 아닙니다",
+    "오늘 잠 망치는 생각은 이겁니다",
+    "밤마다 잠 깨는 사람 공통점"
+  ],
+  "thumbnail_text_options": [
+    "오늘 잠 망함",
+    "걱정 루프",
+    "밤에 터지는 이유"
+  ],
+  "hook": "불면증은 잠 부족보다 내일 망할까 봐 시작되는 경우가 많습니다.",
+  "summary": "걱정 루프, 약부터 찾는 반응, 낮에 미뤄둔 생각, 낮의 여백이라는 해법을 빠르게 압축한다.",
+  "stock_search_queries": [
+    "anxious person awake in bed night",
+    "alarm clock night bedroom",
+    "sleeping pills hand close up",
+    "stressed person overthinking office",
+    "busy office stressed person phone",
+    "writing journal at desk calm"
+  ],
+  "script_beats": [
+    {
+      "beat": 1,
+      "seconds": "0-5s",
+      "voiceover": "불면증은 피곤해서보다, 내일 망할까 봐 더 심해집니다.",
+      "on_screen_text": "내일 걱정 루프",
+      "visual_direction": "밤 침대, 불안 표정, 첫 1초부터 경고문처럼",
+      "stock_search_query": "anxious person awake in bed night"
+    },
+    {
+      "beat": 2,
+      "seconds": "5-10s",
+      "voiceover": "잠 못 드는 지금 상태를 다시 걱정하면, 불안이 불안을 키웁니다.",
+      "on_screen_text": "불안이 불안 먹음",
+      "visual_direction": "시계, 뒤척임, 빠른 반복 컷",
+      "stock_search_query": "alarm clock night bedroom"
+    },
+    {
+      "beat": 3,
+      "seconds": "10-15s",
+      "voiceover": "그래서 사람은 자동으로 약부터 찾습니다. 빨리 끝내고 싶으니까요.",
+      "on_screen_text": "약부터 찾음",
+      "visual_direction": "손, 약, 멈칫하는 순간",
+      "stock_search_query": "sleeping pills hand close up"
+    },
+    {
+      "beat": 4,
+      "seconds": "15-22s",
+      "voiceover": "근데 핵심은 밤이 아니라 낮입니다. 낮에 미룬 생각이 밤에 돌아옵니다.",
+      "on_screen_text": "밤은 낮의 청구서",
+      "visual_direction": "낮 스트레스와 밤 멍한 얼굴 교차",
+      "stock_search_query": "stressed person overthinking office"
+    },
+    {
+      "beat": 5,
+      "seconds": "22-30s",
+      "voiceover": "낮에는 일과 연락만 처리하고, 방향이나 후회 같은 질문은 미뤄두죠.",
+      "on_screen_text": "낮엔 미루고 밤에 터짐",
+      "visual_direction": "알림, 업무, 정신없는 일상",
+      "stock_search_query": "busy office stressed person phone"
+    },
+    {
+      "beat": 6,
+      "seconds": "30-38s",
+      "voiceover": "그래서 해법도 밤보다 낮에 있습니다. 생각 정리할 여백부터 만들어야 합니다.",
+      "on_screen_text": "해법은 낮의 여백",
+      "visual_direction": "노트 쓰기, 차분한 마무리",
+      "stock_search_query": "writing journal at desk calm"
+    }
+  ],
+  "cta": "롱폼 내용도 이런 식으로 더 짧고 공격적으로 재조립하면 됩니다.",
+  "caption": "불면증은 밤의 문제가 아니라 낮에 미뤄둔 생각이 밤에 돌아오는 구조일 수 있습니다.",
+  "hashtags": [
+    "#불면증",
+    "#수면",
+    "#쇼츠",
+    "#과몰입"
+  ],
+  "claims_to_verify": [
+    "모든 불면증이 심리적 원인으로 설명되지는 않는다는 점"
+  ],
+  "missing_facts": [
+    "의학적 불면증과 일시적 수면장애를 나누는 기준"
+  ]
+}

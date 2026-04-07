@@ -1,0 +1,91 @@
+{
+  "keyword": "불면증 커뮤니티 자산 데모",
+  "style_preset": "meme",
+  "core_angle": "커뮤니티 업로드 CC 자산만으로도 불면증 밈컷이 성립하는지 테스트",
+  "audience": "자극적인 한국어 쇼츠를 빠르게 소비하는 시청자",
+  "confidence_label": "medium",
+  "title_options": [
+    "커뮤니티 자산으로 불면증 쇼츠를 만들면",
+    "SNS 말고 공개 커뮤니티 자산만 넣어본 결과",
+    "불면증 쇼츠, 커뮤니티 소스로 테스트"
+  ],
+  "thumbnail_text_options": [
+    "커뮤니티 자산 실험",
+    "CC 자산 테스트",
+    "이걸로 될까?"
+  ],
+  "hook": "커뮤니티 자산만으로도 불면증 쇼츠가 되는지 바로 테스트해봅니다.",
+  "summary": "Wikimedia Commons 같은 공개 커뮤니티 업로드 자산을 자동으로 찾아 넣고, 부족한 부분만 그래픽 없이 그대로 테스트한다.",
+  "stock_search_queries": [
+    "insomnia",
+    "anxiety",
+    "sleep deprivation",
+    "mental stress",
+    "tired office worker",
+    "writing notebook"
+  ],
+  "script_beats": [
+    {
+      "beat": 1,
+      "seconds": "0-6s",
+      "voiceover": "잠이 안 오는 이유가 피곤하지 않아서가 아니라, 내일 망할까 봐 머리가 먼저 달리기 때문일 수도 있습니다.",
+      "on_screen_text": "내일 망할까 봐 잠이 깨짐",
+      "visual_direction": "community asset - insomnia",
+      "community_search_query": "insomnia"
+    },
+    {
+      "beat": 2,
+      "seconds": "6-12s",
+      "voiceover": "문제는 잠을 못 자는 지금 상태를 또 걱정한다는 겁니다. 불안이 불안을 더 키우는 구조가 생깁니다.",
+      "on_screen_text": "불안이 불안을 키움",
+      "visual_direction": "community asset - anxiety",
+      "community_search_query": "anxiety"
+    },
+    {
+      "beat": 3,
+      "seconds": "12-18s",
+      "voiceover": "그러면 사람은 거의 자동으로 약이나 쉬운 해답부터 찾습니다. 빨리 끝내고 싶으니까요.",
+      "on_screen_text": "약부터 찾는 순간 놓치는 것",
+      "visual_direction": "community asset - sleep deprivation",
+      "community_search_query": "sleep deprivation"
+    },
+    {
+      "beat": 4,
+      "seconds": "18-25s",
+      "voiceover": "근데 이 영상의 핵심은, 불면증을 밤의 문제가 아니라 낮에 미뤄둔 생각이 밤에 돌아오는 구조로 본다는 데 있습니다.",
+      "on_screen_text": "밤은 낮의 청구서",
+      "visual_direction": "community asset - mental stress",
+      "community_search_query": "mental stress"
+    },
+    {
+      "beat": 5,
+      "seconds": "25-34s",
+      "voiceover": "낮에는 연락, 일정, 일만 쫓다가 방향, 관계, 후회 같은 질문은 계속 미뤄집니다. 그러다 밤에 한꺼번에 터집니다.",
+      "on_screen_text": "낮엔 미루고 밤에 터짐",
+      "visual_direction": "community asset - tired office worker",
+      "community_search_query": "tired office worker"
+    },
+    {
+      "beat": 6,
+      "seconds": "34-44s",
+      "voiceover": "그래서 해법도 밤보다 낮에 있습니다. 억지로 잠을 밀어붙이기보다, 낮에 생각을 정리할 여백부터 만들어야 합니다.",
+      "on_screen_text": "해법은 낮의 여백",
+      "visual_direction": "community asset - writing notebook",
+      "community_search_query": "writing notebook"
+    }
+  ],
+  "cta": "이 구조를 더 밀면 주제별 커뮤니티 레퍼런스 라우터로 확장할 수 있습니다.",
+  "caption": "공개 커뮤니티 업로드 CC 자산만으로 불면증 쇼츠가 성립하는지 테스트합니다.",
+  "hashtags": [
+    "#불면증",
+    "#쇼츠",
+    "#커뮤니티자산",
+    "#편집실험"
+  ],
+  "claims_to_verify": [
+    "모든 불면증을 심리적 원인 하나로 설명할 수는 없다는 점"
+  ],
+  "missing_facts": [
+    "임상적 불면증과 일반적 수면장애 설명의 구분"
+  ]
+}

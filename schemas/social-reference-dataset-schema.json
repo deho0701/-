@@ -1,0 +1,170 @@
+{
+  "name": "social_reference_dataset",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "dataset_name",
+      "purpose",
+      "entries"
+    ],
+    "properties": {
+      "dataset_name": {
+        "type": "string"
+      },
+      "purpose": {
+        "type": "string"
+      },
+      "entries": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "platform",
+            "source_url",
+            "rights_status",
+            "reusable_as_media",
+            "reference_only",
+            "topic_tags",
+            "tone_tags",
+            "visual_roles",
+            "editing_patterns",
+            "hook_pattern",
+            "caption_pattern",
+            "scene_summary",
+            "search_queries",
+            "fallback_generation_prompt",
+            "usable_asset_plan"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "platform": {
+              "type": "string",
+              "enum": [
+                "instagram",
+                "x",
+                "youtube_shorts",
+                "tiktok",
+                "other"
+              ]
+            },
+            "source_url": {
+              "type": "string"
+            },
+            "creator_handle": {
+              "type": "string"
+            },
+            "captured_at": {
+              "type": "string"
+            },
+            "rights_status": {
+              "type": "string",
+              "enum": [
+                "unknown",
+                "reference_only",
+                "licensed",
+                "owned"
+              ]
+            },
+            "reusable_as_media": {
+              "type": "boolean"
+            },
+            "reference_only": {
+              "type": "boolean"
+            },
+            "topic_tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "tone_tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "visual_roles": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "hook",
+                  "reaction",
+                  "example",
+                  "consequence",
+                  "metaphor",
+                  "graphic",
+                  "payoff"
+                ]
+              }
+            },
+            "editing_patterns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "hook_pattern": {
+              "type": "string"
+            },
+            "caption_pattern": {
+              "type": "string"
+            },
+            "scene_summary": {
+              "type": "string"
+            },
+            "search_queries": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "fallback_generation_prompt": {
+              "type": "string"
+            },
+            "usable_asset_plan": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source_priority",
+                "asset_type"
+              ],
+              "properties": {
+                "source_priority": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "owned_library",
+                      "licensed_library",
+                      "stock",
+                      "generated"
+                    ]
+                  }
+                },
+                "asset_type": {
+                  "type": "string",
+                  "enum": [
+                    "reaction_clip",
+                    "broll",
+                    "motion_graphic",
+                    "generated_video",
+                    "generated_image"
+                  ]
+                },
+                "notes": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

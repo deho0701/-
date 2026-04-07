@@ -1,0 +1,73 @@
+{
+  "name": "hybrid_source_shorts_script",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "shorts": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 8,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "title": { "type": "string" },
+            "thumbnail_text": { "type": "string" },
+            "cold_open_text": { "type": "string" },
+            "core_angle": { "type": "string" },
+            "hook_indices": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 0 }
+            },
+            "setup_indices": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 0 }
+            },
+            "body_indices": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 0 }
+            },
+            "payoff_indices": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 0 }
+            },
+            "script_beats": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 8,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "beat": { "type": "integer", "minimum": 1 },
+                  "seconds": { "type": "string" },
+                  "voiceover": { "type": "string" },
+                  "caption_text": { "type": "string" },
+                  "on_screen_text": { "type": "string" },
+                  "fallback_visual_prompt": { "type": "string" }
+                },
+                "required": ["beat", "seconds", "voiceover", "on_screen_text", "fallback_visual_prompt"]
+              }
+            }
+          },
+          "required": [
+            "title",
+            "thumbnail_text",
+            "core_angle",
+            "hook_indices",
+            "setup_indices",
+            "body_indices",
+            "payoff_indices",
+            "script_beats"
+          ]
+        }
+      }
+    },
+    "required": ["shorts"]
+  }
+}

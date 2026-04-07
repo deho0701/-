@@ -1,0 +1,13 @@
+{
+  "name": "shorts-keyword-agents",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-shorts.mjs",
+    "fetch-community": "node fetch-community-assets.mjs",
+    "split-longform": "node split-longform-into-shorts.mjs",
+    "render-hybrid": "node render-hybrid-source-shorts.mjs",
+    "check": "node --check generate-shorts.mjs && node --check fetch-community-assets.mjs && node --check split-longform-into-shorts.mjs && node --check render-hybrid-source-shorts.mjs"
+  }
+}

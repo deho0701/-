@@ -1,0 +1,26 @@
+.env
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+runs/
+assets/community/
+assets/tmp/
+
+*.mp4
+*.mp3
+*.wav
+*.webm
+*.ogv
+*.jpg
+*.jpeg
+*.png
+*.ass
+
+# keep tiny demo asset pool for clone-and-run smoke tests
+!assets/source-pools/
+!assets/source-pools/**/*.json
+!assets/source-pools/**/*.mp4
+
+.DS_Store

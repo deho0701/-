@@ -1,0 +1,96 @@
+{
+  "keyword": "불면증 밈컷 소스 혼합 데모",
+  "style_preset": "meme",
+  "core_angle": "불면증 내용을 유지하되 owned, licensed, stock, generated 소스를 섞어서 한 편 안에 구성하는 테스트",
+  "audience": "밈컷 기반 짧고 자극적인 한국어 쇼츠를 소비하는 시청자",
+  "confidence_label": "medium",
+  "title_options": [
+    "불면증, 소스 4종 섞어서 만들면 이렇게 됩니다",
+    "잠 안 오는 이유를 밈컷으로 자르면 이런 느낌",
+    "불면증 쇼츠를 더 자극적으로 만드는 소스 조합"
+  ],
+  "thumbnail_text_options": [
+    "소스 4종 실험",
+    "밈컷 데모",
+    "이렇게 더 세게"
+  ],
+  "hook": "불면증 쇼츠도 소스만 바꾸면 분위기가 완전히 달라집니다.",
+  "summary": "owned, licensed, stock, generated를 한 편 안에서 섞어 불면증 설명 영상을 더 자극적인 밈컷 감도로 테스트한다.",
+  "stock_search_queries": [
+    "sleeping pills hand close up",
+    "busy office stressed person phone",
+    "writing journal at desk calm"
+  ],
+  "script_beats": [
+    {
+      "beat": 1,
+      "seconds": "0-6s",
+      "voiceover": "잠이 안 오는 이유가 피곤하지 않아서가 아니라, 내일 망할까 봐 무서워서일 수도 있습니다.",
+      "on_screen_text": "내일 망할까 봐 잠이 깨짐",
+      "visual_direction": "owned 훅 카드",
+      "local_asset_path": "assets/source-pools/owned/alert-pulse-owned.mp4",
+      "asset_source_type": "owned",
+      "asset_source_label": "owned alert pulse"
+    },
+    {
+      "beat": 2,
+      "seconds": "6-12s",
+      "voiceover": "사람은 잠 못 드는 지금 상태까지 다시 걱정하면서, 불안이 불안을 계속 키우게 됩니다.",
+      "on_screen_text": "불안이 불안을 키움",
+      "visual_direction": "licensed 큐레이션 컷",
+      "local_asset_path": "assets/source-pools/licensed/night-bedroom-licensed.mp4",
+      "asset_source_type": "licensed",
+      "asset_source_label": "licensed curated bedroom clip",
+      "asset_source_url": "https://pixabay.com/videos/id-15629/",
+      "asset_credit": "Pixabay curated"
+    },
+    {
+      "beat": 3,
+      "seconds": "12-18s",
+      "voiceover": "그래서 사람들은 거의 자동으로 약부터 찾습니다. 제일 쉬운 해결책처럼 보이니까요.",
+      "on_screen_text": "약부터 찾는 순간 놓치는 것",
+      "visual_direction": "stock API 컷",
+      "stock_search_query": "sleeping pills hand close up"
+    },
+    {
+      "beat": 4,
+      "seconds": "18-26s",
+      "voiceover": "근데 이 영상은 불면증을 그냥 밤의 고장이 아니라, 낮에 미뤄둔 생각이 밤에 되돌아오는 구조로 봅니다.",
+      "on_screen_text": "밤은 낮의 청구서",
+      "visual_direction": "generated 대체 컷",
+      "local_asset_path": "assets/source-pools/generated/thought-spiral-generated.mp4",
+      "asset_source_type": "generated",
+      "asset_source_label": "generated thought spiral"
+    },
+    {
+      "beat": 5,
+      "seconds": "26-35s",
+      "voiceover": "낮에는 일정, 일, 연락만 쫓다가 방향, 관계, 후회 같은 질문은 계속 미뤄집니다. 그러다 밤에 한꺼번에 돌아오죠.",
+      "on_screen_text": "낮엔 미루고 밤에 터짐",
+      "visual_direction": "stock API 컷",
+      "stock_search_query": "busy office stressed person phone"
+    },
+    {
+      "beat": 6,
+      "seconds": "35-45s",
+      "voiceover": "그래서 해법도 밤보다 낮에 있습니다. 잠을 억지로 밀어붙이기보다, 낮에 생각을 정리할 여백부터 만들어야 합니다.",
+      "on_screen_text": "해법은 낮의 여백",
+      "visual_direction": "stock API 컷",
+      "stock_search_query": "writing journal at desk calm"
+    }
+  ],
+  "cta": "이제 이 구조를 장면 역할별 소스 라우터로 키울 수 있습니다.",
+  "caption": "불면증 내용을 유지한 채 owned, licensed, stock, generated 소스를 섞은 데모 렌더입니다.",
+  "hashtags": [
+    "#불면증",
+    "#밈컷",
+    "#쇼츠",
+    "#편집실험"
+  ],
+  "claims_to_verify": [
+    "모든 불면증을 심리적 원인으로만 설명할 수는 없다는 점"
+  ],
+  "missing_facts": [
+    "임상적 진료 기준과 일반 정보의 경계"
+  ]
+}

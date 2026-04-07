@@ -1,0 +1,28 @@
+{
+  "dataset_name": "insomnia_source_pool_demo",
+  "purpose": "불면증 쇼츠 테스트에서 owned/licensed/stock/generated 소스를 섞어 쓰는 데모 매니페스트",
+  "assets": [
+    {
+      "id": "owned-alert-pulse-001",
+      "source_type": "owned",
+      "label": "owned alert pulse",
+      "local_path": "assets/source-pools/owned/alert-pulse-owned.mp4",
+      "notes": "내부 제작 훅 카드용 자체 자산"
+    },
+    {
+      "id": "licensed-night-bedroom-001",
+      "source_type": "licensed",
+      "label": "licensed curated pixabay bedroom",
+      "local_path": "assets/source-pools/licensed/night-bedroom-licensed.mp4",
+      "source_url": "https://pixabay.com/videos/id-15629/",
+      "notes": "API로 받은 스톡 중 수동 큐레이션해 licensed bucket에 넣은 데모 자산"
+    },
+    {
+      "id": "generated-thought-spiral-001",
+      "source_type": "generated",
+      "label": "generated thought spiral",
+      "local_path": "assets/source-pools/generated/thought-spiral-generated.mp4",
+      "notes": "생성형 대체 컷 대신 로컬 생성 모션 그래픽으로 만든 데모 자산"
+    }
+  ]
+}
